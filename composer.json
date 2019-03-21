@@ -12,7 +12,7 @@
     },
     "extra": {
         "patches": {
-            "magento/framework": {
+            "magento/module-backend": {
                 "Replacement for google graph": {
                     "source" : "patches/Magento_Backend/replacement-for-google-graph.patch",
                     "version" : [
