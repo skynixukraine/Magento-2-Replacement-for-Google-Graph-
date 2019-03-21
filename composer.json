@@ -1,0 +1,25 @@
+{
+    "name": "skynix/m2-replacement-for-google-graph",
+    "description": "Patch for core Magento2",
+    "authors": [
+        {
+            "name": "Skynix",
+            "email": "apps@skynix.co"
+        }
+    ],
+    "require": {
+        "vaimo/composer-patches": "^3.24.1"
+    },
+    "extra": {
+        "patches": {
+            "magento/framework": {
+                "Replacement for google graph": {
+                    "source" : "patches/Magento_Backend/replacement-for-google-graph.patch",
+                    "version" : [
+                        "100.2.4"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@ Patch for charts Magento2.
 
 ## Installation
 
-`composer require skynix/m2-directory-replacement-for-google-graph:dev-master`
+`composer require skynix/m2-replacement-for-google-graph:dev-master`
 
 
 ## Add a patch
